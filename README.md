@@ -25,3 +25,5 @@ Defensive only. All data is synthetic: placeholder brands (ExampleBank), `[link]
 | `eval.py` | Runs one model on the test set |
 | `report.py` | Builds the summary table and gap chart |
 | `app.py` | The Streamlit demo |
+
+Note: we did not run our trained model on our own test set. The 68% vs. 32% win rate is from Adaption’s AutoScientist evaluation. Our test set was used to show the language gap with a keyword-filter baseline.

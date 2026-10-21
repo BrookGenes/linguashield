@@ -1,0 +1,49 @@
+id,language,label,scam_type,text,pred,reason,correct
+en-s1,en,scam,fake_bank,ExampleBank: Your account has been locked. Verify your details within 24 hours at [link] or it will be closed.,scam,Matched English scam keyword: 'verify your'.,True
+en-s2,en,scam,fake_prize,Congratulations! You won a $500 gift card. Claim now at [link]. Offer expires today.,scam,Matched English scam keyword: 'claim now'.,True
+en-s3,en,scam,fake_delivery,Your package could not be delivered. Pay a $1.99 redelivery fee at [link] to avoid return.,scam,Matched English scam keyword: 'redelivery fee'.,True
+en-s4,en,scam,fake_job,Work from home and earn $300 daily. No experience needed. Send your ID and bank number to start today.,scam,Matched English scam keyword: 'work from home'.,True
+en-s5,en,scam,tech_support,Warning: your phone has a virus. Call 555-0100 now and give the technician your password.,scam,Matched English scam keyword: 'your phone has a virus'.,True
+en-s6,en,scam,impersonation,"Hi mum, I lost my phone. This is my new number. Please send $200 urgently, I will explain later.",scam,Matched English scam keyword: 'send $'.,True
+en-l1,en,legitimate,bank_notice,ExampleBank: Your statement for September is now available. Log in to the app to view it.,legitimate,No known scam keywords found.,True
+en-l2,en,legitimate,appointment,Reminder: your dentist appointment is tomorrow at 3 PM. Reply C to confirm.,legitimate,No known scam keywords found.,True
+en-l3,en,legitimate,delivery,Your package was delivered today at 2:15 PM and left at the front door.,legitimate,No known scam keywords found.,True
+en-l4,en,legitimate,library,"Hi, this is Sam from the library. The book you reserved is ready for pickup until Friday.",legitimate,No known scam keywords found.,True
+en-l5,en,legitimate,otp,Your verification code is 482913. Do not share it. It expires in 10 minutes.,legitimate,No known scam keywords found.,True
+en-l6,en,legitimate,family,"Mom: Dinner at 7 tonight, can you pick up bread on your way home?",legitimate,No known scam keywords found.,True
+es-s1,es,scam,fake_bank,ExampleBank: Su cuenta ha sido bloqueada. Verifique sus datos en las próximas 24 horas en [enlace] o será cerrada.,legitimate,No known scam keywords found.,False
+es-s2,es,scam,fake_prize,¡Felicidades! Ganaste una tarjeta de regalo de $500. Reclámala ahora en [enlace]. La oferta vence hoy.,legitimate,No known scam keywords found.,False
+es-s3,es,scam,fake_delivery,No pudimos entregar tu paquete. Paga $1.99 de reenvío en [enlace] para evitar la devolución.,legitimate,No known scam keywords found.,False
+es-s4,es,scam,fake_job,Trabaja desde casa y gana $300 diarios. Sin experiencia. Envía tu identificación y número de cuenta bancaria para empezar hoy.,legitimate,No known scam keywords found.,False
+es-s5,es,scam,tech_support,Advertencia: tu teléfono tiene un virus. Llama al 555-0100 ahora y dale tu contraseña al técnico.,legitimate,No known scam keywords found.,False
+es-s6,es,scam,impersonation,"Hola mamá, perdí mi teléfono. Este es mi número nuevo. Por favor envíame $200 urgente, luego te explico.",legitimate,No known scam keywords found.,False
+es-l1,es,legitimate,bank_notice,ExampleBank: Su estado de cuenta de septiembre ya está disponible. Inicie sesión en la app para verlo.,legitimate,No known scam keywords found.,True
+es-l2,es,legitimate,appointment,Recordatorio: su cita con el dentista es mañana a las 3 PM. Responda C para confirmar.,legitimate,No known scam keywords found.,True
+es-l3,es,legitimate,delivery,Tu paquete fue entregado hoy a las 2:15 PM y se dejó en la puerta principal.,legitimate,No known scam keywords found.,True
+es-l4,es,legitimate,library,"Hola, soy Sam de la biblioteca. El libro que reservaste está listo para recoger hasta el viernes.",legitimate,No known scam keywords found.,True
+es-l5,es,legitimate,otp,Tu código de verificación es 482913. No lo compartas. Caduca en 10 minutos.,legitimate,No known scam keywords found.,True
+es-l6,es,legitimate,family,"Mamá: la cena es a las 7 esta noche, ¿puedes comprar pan de camino a casa?",legitimate,No known scam keywords found.,True
+sw-s1,sw,scam,fake_bank,ExampleBank: Akaunti yako imefungwa. Thibitisha taarifa zako ndani ya saa 24 kupitia [kiungo] la sivyo itafungwa kabisa.,legitimate,No known scam keywords found.,False
+sw-s2,sw,scam,fake_prize,Hongera! Umeshinda zawadi ya kadi ya $500. Idai sasa kupitia [kiungo]. Ofa inaisha leo.,legitimate,No known scam keywords found.,False
+sw-s3,sw,scam,fake_delivery,Kifurushi chako hakikuweza kufikishwa. Lipa ada ya $1.99 ya kutuma tena kupitia [kiungo] ili kuepuka kurudishwa.,legitimate,No known scam keywords found.,False
+sw-s4,sw,scam,fake_job,Fanya kazi ukiwa nyumbani na upate $300 kila siku. Hakuna uzoefu unaohitajika. Tuma kitambulisho chako na namba ya akaunti ya benki ili uanze leo.,legitimate,No known scam keywords found.,False
+sw-s5,sw,scam,tech_support,Onyo: simu yako ina virusi. Piga 555-0100 sasa hivi na umpe fundi nenosiri lako.,legitimate,No known scam keywords found.,False
+sw-s6,sw,scam,impersonation,"Mambo mama, nimepoteza simu yangu. Hii ni namba yangu mpya. Tafadhali nitumie $200 haraka, nitaeleza baadaye.",legitimate,No known scam keywords found.,False
+sw-l1,sw,legitimate,bank_notice,ExampleBank: Taarifa ya akaunti yako ya Septemba sasa inapatikana. Ingia kwenye programu kuiona.,legitimate,No known scam keywords found.,True
+sw-l2,sw,legitimate,appointment,Kumbusho: miadi yako ya daktari wa meno ni kesho saa 9 mchana. Jibu C kuthibitisha.,legitimate,No known scam keywords found.,True
+sw-l3,sw,legitimate,delivery,Kifurushi chako kimefikishwa leo saa 8:15 mchana na kuachwa mlangoni.,legitimate,No known scam keywords found.,True
+sw-l4,sw,legitimate,library,"Habari, mimi ni Sam wa maktaba. Kitabu ulichoagiza kiko tayari kuchukuliwa hadi Ijumaa.",legitimate,No known scam keywords found.,True
+sw-l5,sw,legitimate,otp,Namba yako ya uthibitisho ni 482913. Usimshirikishe mtu yeyote. Itaisha baada ya dakika 10.,legitimate,No known scam keywords found.,True
+sw-l6,sw,legitimate,family,"Mama: Chakula cha jioni ni saa 1 usiku leo, unaweza kununua mkate ukiwa njiani kurudi nyumbani?",legitimate,No known scam keywords found.,True
+tl-s1,tl,scam,fake_bank,ExampleBank: Na-lock ang account mo. I-verify ang iyong detalye sa loob ng 24 oras sa [link] o ito ay isasara.,legitimate,No known scam keywords found.,False
+tl-s2,tl,scam,fake_prize,Congratulations! Nanalo ka ng $500 gift card. I-claim na ngayon sa [link]. Magtatapos ang alok ngayong araw.,scam,Matched English scam keyword: 'congratulations'.,True
+tl-s3,tl,scam,fake_delivery,Hindi naihatid ang package mo. Magbayad ng $1.99 na redelivery fee sa [link] para maiwasan ang pagbabalik.,scam,Matched English scam keyword: 'redelivery fee'.,True
+tl-s4,tl,scam,fake_job,Magtrabaho sa bahay at kumita ng $300 araw-araw. Walang karanasang kailangan. Ipadala ang iyong ID at bank account number para magsimula ngayon.,legitimate,No known scam keywords found.,False
+tl-s5,tl,scam,tech_support,Babala: may virus ang telepono mo. Tumawag sa 555-0100 ngayon at ibigay sa technician ang iyong password.,scam,Matched English scam keyword: 'password'.,True
+tl-s6,tl,scam,impersonation,"Hi mama, nawala ang phone ko. Ito na ang bago kong numero. Pakipadala ng $200 agad, ipapaliwanag ko mamaya.",legitimate,No known scam keywords found.,False
+tl-l1,tl,legitimate,bank_notice,ExampleBank: Available na ang iyong statement para sa Setyembre. Mag-log in sa app para makita ito.,legitimate,No known scam keywords found.,True
+tl-l2,tl,legitimate,appointment,Paalala: bukas ng 3 PM ang appointment mo sa dentista. Mag-reply ng C para kumpirmahin.,legitimate,No known scam keywords found.,True
+tl-l3,tl,legitimate,delivery,Naihatid na ang package mo ngayong 2:15 PM at iniwan sa harap ng pinto.,legitimate,No known scam keywords found.,True
+tl-l4,tl,legitimate,library,"Hello, si Sam ito mula sa library. Handa nang kunin ang librong nireserba mo hanggang Biyernes.",legitimate,No known scam keywords found.,True
+tl-l5,tl,legitimate,otp,Ang verification code mo ay 482913. Huwag itong ibahagi. Mag-e-expire ito sa loob ng 10 minuto.,legitimate,No known scam keywords found.,True
+tl-l6,tl,legitimate,family,"Mama: Hapunan ngayong 7 PM, puwede ka bang bumili ng tinapay pag-uwi mo?",legitimate,No known scam keywords found.,True

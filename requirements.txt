@@ -1,0 +1,6 @@
+pandas
+matplotlib
+streamlit
+# Only needed for Option B (running the downloaded model locally):
+# transformers
+# torch
